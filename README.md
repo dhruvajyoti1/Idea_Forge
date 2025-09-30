@@ -4,7 +4,6 @@
 
 
 
-
 📌 Overview
 
 IdeaVault is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
