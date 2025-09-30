@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* TechHive Design System - Collaborate. Innovate. Protect.
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Light Mode - Tech-focused Colors */
+    --background: 0 0% 100%;
+    --foreground: 215 25% 15%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    /* Popover */
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Primary - Cyan Tech */
+    --primary: 180 100% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Electric Blue */
+    --secondary: 217 91% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent - Neon Green */
+    --accent: 127 80% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Muted */
+    --muted: 215 25% 96%;
+    --muted-foreground: 215 20% 45%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 215 20% 90%;
+    --input: 215 25% 96%;
+    --ring: 180 100% 40%;
+
+    /* Professional Blue→Teal Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 90% 45%));
+    --gradient-tech: linear-gradient(135deg, hsl(0 0% 100%), hsl(215 25% 98%));
+    --gradient-glow: linear-gradient(135deg, hsl(200 100% 45% / 0.1), hsl(180 100% 50% / 0.1));
+    --gradient-blue-teal: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 100% 50%));
+
+    /* Tech Shadows */
+    --shadow-soft: 0 8px 32px -8px hsl(180 100% 50% / 0.2);
+    --shadow-glow: 0 0 32px hsl(180 100% 50% / 0.3);
+    --shadow-neon: 0 0 20px hsl(127 80% 45% / 0.4);
+    --shadow-card: 0 4px 16px -2px hsl(0 0% 0% / 0.1);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.15s ease-out;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark Mode - Tech-focused Colors */
+    --background: 215 28% 17%;
+    --foreground: 213 31% 91%;
+
+    /* Card System */
+    --card: 215 27% 15%;
+    --card-foreground: 213 31% 91%;
+
+    /* Popover */
+    --popover: 215 27% 15%;
+    --popover-foreground: 213 31% 91%;
+
+    /* Primary - Cyan Tech */
+    --primary: 180 100% 50%;
+    --primary-foreground: 215 28% 17%;
+
+    /* Secondary - Electric Blue */
+    --secondary: 217 91% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Accent - Neon Green */
+    --accent: 127 100% 50%;
+    --accent-foreground: 215 28% 17%;
+
+    /* Muted */
+    --muted: 215 25% 20%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Border & Input */
+    --border: 215 20% 25%;
+    --input: 215 25% 20%;
+    --ring: 180 100% 50%;
+
+    /* Professional Blue→Teal Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 100% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 90% 45%));
+    --gradient-tech: linear-gradient(135deg, hsl(215 28% 17%), hsl(200 25% 20%));
+    --gradient-glow: linear-gradient(135deg, hsl(200 100% 45% / 0.1), hsl(180 100% 50% / 0.1));
+    --gradient-blue-teal: linear-gradient(135deg, hsl(200 100% 45%), hsl(180 100% 50%));
+
+    /* Tech Shadows */
+    --shadow-soft: 0 8px 32px -8px hsl(180 100% 50% / 0.3);
+    --shadow-glow: 0 0 32px hsl(180 100% 50% / 0.4);
+    --shadow-neon: 0 0 20px hsl(127 100% 50% / 0.5);
+    --shadow-card: 0 4px 16px -2px hsl(0 0% 0% / 0.4);
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+}
+
+/* TechHive Tech Components */
+@layer components {
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  .gradient-tech {
+    background: var(--gradient-tech);
+  }
+  
+  .gradient-glow {
+    background: var(--gradient-glow);
+  }
+  
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .shadow-neon {
+    box-shadow: var(--shadow-neon);
+  }
+  
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  
+  .transition-fast {
+    transition: var(--transition-fast);
+  }
+  
+  .card-hover {
+    @apply transition-smooth hover:shadow-glow hover:-translate-y-1 hover:border-primary/30;
+  }
+  
+  .tech-border {
+    @apply border border-primary/20 bg-gradient-to-br from-card to-card/50;
+  }
+  
+  .neon-text {
+    @apply text-primary;
+    text-shadow: 0 0 10px hsl(var(--primary) / 0.5);
+  }
+  
+  .tech-grid {
+    background-image: 
+      linear-gradient(hsl(var(--primary) / 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--primary) / 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+  .badge-glow {
+    @apply relative;
+  }
+  
+  .badge-glow::before {
+    content: '';
+    @apply absolute inset-0 rounded-full opacity-40 animate-pulse;
+    background: var(--gradient-accent);
+    filter: blur(6px);
+    z-index: -1;
+  }
+  
+  .floating-particles::before {
+    content: '';
+    @apply absolute inset-0 opacity-30;
+    background-image: radial-gradient(1px 1px at 20px 30px, hsl(var(--primary)), transparent),
+                      radial-gradient(1px 1px at 40px 70px, hsl(var(--accent)), transparent),
+                      radial-gradient(1px 1px at 90px 40px, hsl(var(--secondary)), transparent);
+    background-repeat: repeat;
+    background-size: 100px 100px;
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  @keyframes slide {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+}
