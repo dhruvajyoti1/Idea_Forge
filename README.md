@@ -1,4 +1,4 @@
-# 🚀 IdeaVault – Secure Idea Sharing & Collaboration
+# 🚀 TechHive – Secure Idea Sharing & Collaboration
 
 
 
@@ -6,7 +6,7 @@
 
 📌 Overview
 
-IdeaVault is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
+Tech Hive is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
 It leverages blockchain proof, encrypted storage, and skill verification to ensure trust, transparency, and efficient teamwork.
 
 ✨ Key Features
