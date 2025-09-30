@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+TechHive – Secure IdeaHub
 
-## Project info
+A web + mobile platform where engineers, students, and investors can share and develop tech ideas securely and collaboratively.
+The platform ensures proof of authorship, trustworthy collaboration, and efficient innovation building.
 
-**URL**: https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e
+🚀 Key Features
 
-## How can I edit this code?
+Idea Vault – Blockchain timestamp for proof of authorship
 
-There are several ways of editing your application.
+Controlled Visibility – Encrypted storage with adjustable access
 
-**Use Lovable**
+Feasibility Scoring – AI-driven analysis + community voting
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e) and start prompting.
+Duplicate Detection & Audit Logs – Prevents plagiarism and ensures transparency
 
-Changes made via Lovable will be committed automatically to this repo.
+Skill-Verified Team Formation – Connect with verified experts and investors
 
-**Use your preferred IDE**
+🏗️ System Architecture
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: React (Web), React Native (Mobile)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Backend: Node.js + Express
 
-Follow these steps:
+Database: MongoDB
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Blockchain: Lightweight smart contracts for authorship verification
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+AI/ML: NLP models for feasibility analysis and duplicate detection
 
-# Step 3: Install the necessary dependencies.
-npm i
+⚙️ Technical Approach
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Technologies:
 
-**Edit a file directly in GitHub**
+MERN Stack (MongoDB, Express, React, Node.js)
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Blockchain for timestamping & proof
 
-**Use GitHub Codespaces**
+AI/ML (NLP for idea comparison + feasibility scoring)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Process:
 
-## What technologies are used for this project?
+User submits idea → securely stored with blockchain timestamp
 
-This project is built with:
+AI evaluates feasibility → scoring and community voting
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Verified experts form teams and connect with investors
 
-## How can I deploy this project?
+🌍 Vision – Why It Matters in 2025
 
-Simply open [Lovable](https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e) and click on Share -> Publish.
+Protects innovators – Blockchain-backed authorship proof builds trust.
 
-## Can I connect a custom domain to my Lovable project?
+Bridges students, engineers, and investors for real-world impact.
 
-Yes, you can!
+Encourages collaboration over competition, fostering innovation.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+AI-driven insights make evaluation transparent and efficient.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Future-ready ecosystem for tech-driven problem solving.
+
+📖 References
+
+World Intellectual Property Organization (WIPO) – On innovation protection and IP rights.
+
+IBM Blockchain – Blockchain for secure transactions & verification.
+
+IEEE Xplore Research – AI and NLP in feasibility studies.
+
+Harvard Business Review – Why secure collaboration matters in innovation.
+
+MongoDB Docs – Scalable NoSQL database for flexible idea storage.
+
+React & React Native Docs – Frontend frameworks powering web & mobile apps.
