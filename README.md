@@ -1,4 +1,4 @@
-# 🚀 TechHive – Secure Idea Sharing & Collaboration
+# 🚀 Idea Forge – Secure Idea Sharing & Collaboration
 
 
 
@@ -6,7 +6,7 @@
 
 📌 Overview
 
-Tech Hive is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
+Idea Forge is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
 It leverages blockchain proof, encrypted storage, and skill verification to ensure trust, transparency, and efficient teamwork.
 
 ✨ Key Features
