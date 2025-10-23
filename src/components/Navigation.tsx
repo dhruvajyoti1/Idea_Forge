@@ -20,9 +20,9 @@ const Navigation = () => {
       <header className="hidden md:flex items-center justify-between px-6 py-4 border-b bg-card/50 backdrop-blur-sm sticky top-0 z-40">
         <div className="flex items-center space-x-8">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">TH</span>
-            </div>
+            {/* <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">I_F</span>
+            </div> */}
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               IDEA_FORGE
             </span>
