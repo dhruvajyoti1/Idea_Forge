@@ -82,7 +82,7 @@ const Index = () => {
         <div className="absolute inset-0">
           <img 
             src={heroImage} 
-            alt="TechHive Innovation" 
+            alt="IDEA_FORGE Innovation" 
             className="w-full h-full object-cover opacity-10"
           />
           <div className="absolute inset-0 gradient-tech" />
@@ -242,3 +242,5 @@ const Index = () => {
 };
 
 export default Index;
+
+

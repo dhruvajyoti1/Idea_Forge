@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="w-8 h-8 gradient-primary rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">TH</span>
               </div>
-              <span className="text-xl font-bold">TechHive</span>
+              <span className="text-xl font-bold">IDEA_FORGE</span>
             </div>
             <p className="text-muted-foreground">
               Secure innovation platform powered by blockchain and AI
@@ -46,7 +46,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center justify-center space-x-2 text-muted-foreground">
                 <Mail className="w-4 h-4" />
-                <span>hello@techhive.com</span>
+                <span>hello@IDEA_FORGE.com</span>
               </div>
               <div className="flex items-center justify-center space-x-2 text-muted-foreground">
                 <Phone className="w-4 h-4" />
@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 TechHive. All rights reserved.</p>
+          <p>&copy; 2024 IDEA_FORGE. All rights reserved.</p>
         </div>
       </div>
     </footer>
@@ -86,3 +86,5 @@ const Footer = () => {
 };
 
 export default Footer;
+
+

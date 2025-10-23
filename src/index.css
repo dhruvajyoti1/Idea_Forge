@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* TechHive Design System - Collaborate. Innovate. Protect.
+/* IDEA_FORGE Design System - Collaborate. Innovate. Protect.
 All colors MUST be HSL.
 */
 
@@ -146,7 +146,7 @@ All colors MUST be HSL.
   }
 }
 
-/* TechHive Tech Components */
+/* IDEA_FORGE Tech Components */
 @layer components {
   .gradient-primary {
     background: var(--gradient-primary);
@@ -246,3 +246,6 @@ All colors MUST be HSL.
     scroll-behavior: smooth;
   }
 }
+
+
+

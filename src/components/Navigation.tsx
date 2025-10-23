@@ -24,7 +24,7 @@ const Navigation = () => {
               <span className="text-white font-bold text-sm">TH</span>
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              TechHive
+              IDEA_FORGE
             </span>
           </Link>
           
@@ -102,3 +102,5 @@ const Navigation = () => {
 };
 
 export default Navigation;
+
+

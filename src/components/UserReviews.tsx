@@ -10,7 +10,7 @@ const UserReviews = () => {
       role: "Product Manager",
       company: "TechCorp",
       rating: 5,
-      text: "TechHive transformed how we handle innovation. The blockchain protection gives us confidence to share bold ideas.",
+      text: "IDEA_FORGE transformed how we handle innovation. The blockchain protection gives us confidence to share bold ideas.",
       avatar: "SC"
     },
     {
@@ -36,7 +36,7 @@ const UserReviews = () => {
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">What Innovators Say</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Join thousands of innovators who trust TechHive with their breakthrough ideas
+          Join thousands of innovators who trust IDEA_FORGE with their breakthrough ideas
         </p>
       </div>
       
@@ -82,3 +82,5 @@ const UserReviews = () => {
 };
 
 export default UserReviews;
+
+

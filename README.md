@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# 🚀 Idea_Forge – Secure Idea Sharing & Collaboration
 
-## Project info
 
-**URL**: https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e
 
-## How can I edit this code?
 
-There are several ways of editing your application.
 
-**Use Lovable**
+📌 Overview
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e) and start prompting.
+Idea_Forge is a web and mobile app designed for engineers, students, and investors to share, develop, and collaborate on innovative ideas securely.
+It leverages blockchain proof, encrypted storage, and skill verification to ensure trust, transparency, and efficient teamwork.
 
-Changes made via Lovable will be committed automatically to this repo.
+✨ Key Features
 
-**Use your preferred IDE**
+🔐 Idea Vault – Blockchain timestamp for proof of authorship
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔒 Controlled Visibility – Encrypted storage with access control
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📊 Feasibility Scoring & Voting – Community-driven validation
 
-Follow these steps:
+🕵️ Duplicate Detection & Audit Logs – Transparency & originality check
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🤝 Skill-Verified Team Formation – Connect with collaborators & investors
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+🏗️ System Architecture
 
-# Step 3: Install the necessary dependencies.
-npm i
+⚙️ Technologies Used
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Frontend: React, TypeScript, Tailwind CSS, shadcn-ui
 
-**Edit a file directly in GitHub**
+Backend: Node.js, Express.js
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Database: MongoDB
 
-**Use GitHub Codespaces**
+Blockchain Layer: Lightweight blockchain for idea timestamping
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Hosting/Deployment: Vercel / Netlify (Frontend), Render / AWS (Backend)
 
-## What technologies are used for this project?
+🛠️ Installation & Setup
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git  
 
-This project is built with:
+# Navigate to project directory
+cd your-repo-name  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Install dependencies
+npm install  
+yarn install
 
-## How can I deploy this project?
+# Run development server
+npm run dev  
 
-Simply open [Lovable](https://lovable.dev/projects/cdce079c-c55e-4287-a62b-1bb5cab93f0e) and click on Share -> Publish.
+🚀 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+Deploy frontend on Vercel or Netlify
 
-Yes, you can!
+Deploy backend on Render, AWS, or Railway
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Connect MongoDB via Atlas
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🌍 Vision – Why It Matters in 2025
+
+Democratizes innovation by enabling secure idea sharing.
+
+Builds trust using blockchain proof of authorship.
+
+Helps students, engineers, and investors collaborate globally.
+
+Reduces risk of idea theft with encryption & audit logs.
+
+Creates an innovation ecosystem aligned with future tech growth.
+
+📚 References
+
+Ethereum Timestamping
+ – Blockchain timestamping concepts
+
+MongoDB Atlas
+ – Cloud database solution
+
+Vercel Deployment Docs
+ – Frontend hosting
+
+Tailwind CSS
+ – Styling framework
+
+shadcn/ui
+ – UI components
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
+
+
+
